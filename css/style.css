@@ -1,0 +1,807 @@
+html
+{
+	width: 100%;
+	margin: 0%
+}
+
+body
+{
+	width: 100%;
+	margin: 0%;
+	padding: 0%;
+	background-color: #E1DCDA;
+}
+
+.mode_bureau
+{
+	width: 100%;
+	height: 116px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	position: fixed;
+	top: 0;
+	z-index: 2;
+	background-color: #6A997A;
+}
+
+.mode_tablette
+{
+	display: none;
+}
+
+.mode_telephone
+{
+	display: none;
+}
+
+.coiffeur
+{
+	width: 27%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.logo
+{
+	width: 16%;
+	margin-left: 4%;
+	display: inline-block;
+}
+
+img
+{
+	width: 100%;
+	height: auto;
+}
+
+.enseigne, a
+{
+	text-align: center;
+	text-decoration: none;
+}
+
+.enseigne:hover
+{
+	color: #FFFFFF;
+	
+}
+
+.recherche
+{
+	width: 2%;
+	margin-left: 18%;
+}
+
+ul,li, .liens
+{
+	width: 45%;
+	display: flex;
+	justify-content: space-around;
+	justify-content: center;
+	text-decoration: none;
+	padding: 0;
+	margin: 0;
+}
+
+li:hover, a:hover
+{
+	color: #F99F00;
+}
+
+.facebook
+{
+	width: 5%;
+	position: absolute;
+  right: 35px;
+  top: 81px;
+  z-index: 3;
+	position: fixed;
+}
+
+.instagram
+{
+	width: 5%;
+	position: absolute;
+  right: 35px;
+  top: 168px;
+  z-index: 3;
+	position: fixed;
+}
+
+.main_haut
+{
+	display: flex;
+}
+
+
+.main_gauche
+{
+	width: 49%;
+	height: 793px;
+	margin-right: 1%;
+	display: flex;
+}
+
+.parallaxe_gauche
+{
+	background-image: url(../images/salon-de-coiffure-web);
+	background-attachment: fixed;
+  background-position: left;
+  background-repeat: no-repeat;
+}
+
+.parallaxe_droit
+{
+	background-image: url(../images/coupe-de-cheveux-web);
+	background-attachment: fixed;
+  background-repeat: no-repeat;
+	background-position: right;
+}
+
+.bloc
+{
+	width: 82%;
+	height: 280px;
+	margin: 470px 9% 43px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	background-color: rgb(225, 255, 255, 0.75);
+}
+
+.premier_paragraphe
+{
+	padding: 0%;
+	margin: 43px 8% 0px 8%;
+	text-align: center;
+}
+
+.btn_bloc
+{
+	width: 148px;
+	height: 46px;
+	margin-top: 0;
+	margin-bottom: 40px;
+	border-radius: 4px;
+	background-color: #E56B00;
+}
+
+.btn_bloc:hover
+{
+	background-color: #F99F00;
+}
+
+.btn_primary
+{
+	border-style: none;
+}
+
+
+.main_droit
+{
+	width: 49%;
+	height: 793px;
+	margin-left: 1%;
+}
+
+.deuxieme_paragraphe
+{
+	padding: 0%;
+	margin: 60px 8% 0px 8%;
+	text-align: center;
+
+}
+
+.main_milieu_superieur
+{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+.milieu_droit
+{
+	width: 50%;
+	height: auto;
+	display: flex;
+}
+
+.milieu_gauche
+{
+	width: 50%;
+	height: auto;
+	display: flex;
+}
+
+.photo_milieu
+{
+	width: 37%;
+	height: auto;
+	padding: 7%;
+	display: flex;
+  flex-direction:column;
+}
+
+.photo
+{
+	margin: 1%;
+}
+
+.photo_milieu:hover
+{
+	background-color: #E56B00;
+}
+
+.btn_milieu
+{
+	width: 54%;
+	height: 46px;
+	margin-top: 63px;
+	margin-left: 25%;
+	margin-right: 21%;
+	border-radius: 4px;
+	background-color: #E56B00;
+}
+
+.btn_milieu:hover, .btn_evenement:hover
+{
+	background-color: #E1DCDA;
+}
+
+.btn_evenement
+{
+	width: 65%;
+	height: 46px;
+	margin-top: 63px;
+	margin-left: 20%;
+	margin-right: 15%;
+	border-radius: 4px;
+	background-color: #E56B00;
+}
+
+.main_bas_haut
+{
+	margin: 76px 5% 0;
+	display: flex;
+}
+
+.bloc_horaire
+{
+	width: 48%;
+	height: 393px;
+	margin-right: 4%;
+	background-color: #E56B00;
+}
+
+.paragraphe_bas_haut
+{
+	margin-left: 18%;
+	margin-top: 51px;
+}
+
+.paragraphe_bas_haut_droite
+{
+	margin-left: 18%;
+	margin-top: 51px;
+}
+
+.horaire
+{
+	display: flex;
+	margin-top: 37px;
+	line-height: 25px;
+}
+
+.horaire_horaire
+{
+	margin-left: 6%;
+}
+
+.bloc_coordonnees
+{
+	width: 48%;
+	background-color: #F99F00;
+}
+
+.coordonne
+{
+	margin-top: 37px;
+	display: flex;
+	line-height: 25px;
+}
+
+.main_bas_bas
+{
+	margin: 76px 5% 74px;
+	display: flex;
+}
+
+.bloc_rdv
+{
+	width: 48%;
+	height: 452px;
+	margin-right: 4%;
+	background-color: #F99F00;
+	line-height: 25px;
+}
+
+fieldset
+{
+	border-style: none;
+}
+
+input[type=text], input[type=date]
+{
+	width: 55%;
+	height: 50px;
+	padding-left: 20px;
+	border: 2px solid black;
+  border-radius: 4px;
+}
+
+.valider
+{
+	width: 9%;
+	height: 50px;
+	border-radius: 4px;
+	background-color: #E1DCDA;
+}
+
+.alert {
+	width: 48%;
+	height: auto;
+  padding: 20px;
+	margin: 15px;
+  background-color: #6A997A;
+	border-radius: 4px;
+  color: white;
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}
+footer
+{
+	height: 109px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #6B997A;
+}
+
+
+
+
+
+
+
+
+/*mode tablette*/
+
+@media only screen and (max-width: 1024px)
+{
+	.mode_bureau
+	{
+		display: none;
+	}
+	
+	.mode_telephone
+	{
+		display: none;
+	}
+	
+	.mode_tablette
+	{
+	width: 100%;
+	height: 116px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	position: fixed;
+	top: 0;
+	z-index: 2;
+	background-color: #6A997A;
+	}
+	
+	.coiffeur
+	{
+		width: 50%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	
+	.logo
+	{
+		width: 12%;
+		height: auto;
+	}
+	
+	.bloc_reseaux
+	{
+		width: 25%;
+		height: 116px;
+		display: flex;
+		align-items: center;
+		background-color: #E56B00;
+	}
+	
+	.liens_reseaux
+	{
+		width: 48%;
+		height:auto;
+	}
+	
+	.menu
+	{
+		width: 12.5%;
+		height: 116px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		background-color: #FFFFFF;
+	}
+	
+	.bar1, .bar2, .bar3
+	{
+		width: 35px;
+		height: 5px;
+		background-color: #6B997A;
+		margin: 6px 0;
+		transition: 0.4s;
+	}
+	
+	.change .bar1 
+	{
+		-webkit-transform: rotate(-45deg) translate(-9px, 6px);
+		transform: rotate(-45deg) translate(-9px, 6px);
+	}
+
+.change .bar2 
+	{
+		opacity: 0;
+	}
+
+.change .bar3 
+	{
+		-webkit-transform: rotate(45deg) translate(-8px, -8px);
+		transform: rotate(45deg) translate(-8px, -8px);
+	}
+	
+	.recherche_tablette
+	{
+		width: 12.5%;
+		height: auto;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	
+	.recherche_loupe
+	{
+		width: 50px;
+	}
+	
+	.main_haut
+	{
+		flex-direction: column;
+	}
+
+	.main_gauche
+	{
+		width: 100%;
+		height: 623px;
+		margin: 0%;
+	}
+	
+	.main_droit
+	{
+		width: 100%;
+		height: 623px;
+		margin: 0%;
+	}
+	
+	.parallaxe_gauche
+	{
+		background-image: url(../images/salon-de-coiffure-ipad.jpg);
+		background-attachment: scroll;
+	}
+	
+	.parallaxe_droit
+	{
+		background-image: url(../images/coupe-de-cheveux-ipad.jpg);
+		background-attachment: scroll;
+	}
+	
+	.bloc
+	{
+		width: 45%;
+		height: 366px;
+		margin-top: 128px; 
+	}
+	
+	.bloc_droit
+	{
+		margin-left: 3%;
+	}
+	
+	.bloc_gauche
+	{
+		margin-left: 50%;
+		margin-top: 180px; 
+	}
+	
+	.premier_paragraphe
+	{
+		width: 64%;
+		margin-top: 70px;
+		margin-bottom: 30px
+	}
+	
+	.deuxieme_paragraphe
+	{
+		width: 64%;
+		margin-top: 85px;
+		margin-bottom: 30px
+	}
+	
+	.main_milieu_superieur
+	{
+		width: 100%;
+		flex-direction: column;
+	}
+	
+	.milieu_gauche
+	{
+		width: 100%;
+	}
+	
+	.milieu_droit
+	{
+		width: 100%;
+	}
+	
+	.photo_milieu
+	{
+		width: 26%;
+		height: auto;
+		padding: 40px 12%;
+	}
+	
+	
+	.main_bas_haut
+	{
+		width: 100%;
+		margin: 4px 0% 0px;
+	}
+	
+	.bloc_horaire
+	{
+		width: 50%;
+		margin-right: 0.5%;
+	}
+	
+	.bloc_coordonnees
+	{
+		width: 50%;
+		margin-left: 0.5%;
+	}
+	
+	.main_bas_bas
+	{
+		width: 100%;
+		margin: 8px 0% 8px;
+		flex-direction: column;
+	}
+	
+	.bloc_rdv
+	{
+		width: 100%;
+		margin-bottom: 8px;
+	}
+	
+	
+	.paragraphe_bas_haut
+	{
+		margin-left: 30%
+	}
+	
+	.paragraphe_bas_haut_droite
+{
+	margin: 51px 15% 0px 25%;
+}
+	
+	iframe
+	{
+		width: 100%;
+		height: 406px;
+	}
+	
+}
+
+
+
+
+
+
+
+/*mode telephone */
+
+@media only screen and (max-width: 650px)
+{	
+	.mode_telephone
+	{
+		width: 100%;
+		height: 116px;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		position: fixed;
+		top: 0;
+		z-index: 2;
+		background-color: #6A997A;
+	}
+	
+	.logo
+	{
+		width: 20%;
+	}
+	
+	.bloc_reseaux
+	{
+		width: 33%;
+		height: 116px;
+		display: flex;
+		align-items: center;
+		background-color: #E56B00;
+	}
+	
+	.liens_reseaux
+	{
+		width: 48%;
+		height: auto;
+	}
+	
+	.menu
+	{
+		width: 17%;
+	}
+	
+		.main_gauche
+	{
+		width: 100%;
+		height: 789px;
+		margin: 0%;
+	}
+	
+		.main_droit
+	{
+		width: 100%;
+		height: 643px;
+		margin: 0%;
+	}
+	
+	
+	.parallaxe_gauche
+	{
+		background-image: url(../images/salon-de-coiffure-mobile_2.jpg);
+	}
+	
+	.parallaxe_droit
+	{
+		background-image: url(../images/coupe-de-cheveux-mobile.jpg);
+	}
+	
+	.bloc
+	{
+		width: 75%;
+		height: 329px;
+		margin: auto;
+	}
+	
+	.bloc_gauche
+	{
+		margin-top: 270px;
+	}
+	
+	.bloc_droit
+	{
+		margin-top: 155px;
+	}
+	
+	.premier_paragraphe
+	{
+		width: 80%;
+		margin: 18px 10% 0px;
+		height: 247px;
+	}
+	
+	.deuxieme_paragraphe
+	{
+		width: 80%;
+		margin: 60px 0% 15px;
+	}
+	
+		.milieu_gauche
+	{
+		flex-direction: column;
+	}
+	
+	.milieu_droit
+	{
+		flex-direction: column;
+	}
+	
+	.photo_milieu
+	{
+		width: 76%;
+	}
+	
+	.main_bas_haut
+	{
+		flex-direction: column;
+		height: 700px;
+	}
+	
+	.bloc_horaire
+	{
+		width: 100%;
+		margin-top: 12px;
+	}
+	
+	.bloc_coordonnees
+	{
+		width: 100%;
+		height: 338px;
+		margin: 12px 0% 0px;
+	}
+	
+	.bloc_rdv
+	{
+		height: 363px;
+		margin: 5px 0% 12px;
+	}
+	
+	input[type=text], input[type=date]
+	{
+		height: 32px;
+		border-radius: 12px;
+	}
+	
+	.valider
+	{
+		border-radius:12px;
+		height: 35px
+	}
+	
+	.alert
+	{
+		width: 46%;
+		height: 10px;
+	}
+	
+	ifram
+	{
+		height: 363px;
+	}
+	
+	footer
+	{
+		height: 68px;
+	}
+
+}

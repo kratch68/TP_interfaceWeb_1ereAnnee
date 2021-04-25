@@ -1,0 +1,148 @@
+@font-face
+{
+	font-family: muli-bold;
+	src: url("../fonts/Muli-Bold.ttf");
+}
+
+@font-face
+{
+		font-family: patuaone-regular;
+	src: url("../fonts/PatuaOne-Regular.ttf");
+}
+
+@font-face
+{
+	font-family: muli-regular;
+	src: url("../fonts/Muli-Regular.ttf");
+}
+
+@font-face
+{
+	font-family: muli-italic;
+	src: url("../fonts/Muli-Italic.ttf");
+}
+
+.enseigne
+{
+	color: black;
+	font-size: 3vw;
+}
+
+h1, .btn_primary, ul, a
+{
+	font-family:  patuaone-regular;
+	color: white;
+}
+
+ul, h1, a
+{
+	font-size: 2vw;
+}
+
+
+.horaire, .premier_paragraphe, .deuxieme_paragraphe, label, footer, .coordonne
+{
+	font-family: muli-regular;
+	color: white;
+}
+
+.premier_paragraphe, .deuxieme_paragraphe, label, .coordonne, .titre
+{
+	color: black;
+}
+
+.horaire_horaire 
+{
+	font-family: muli-bold;
+	color: white;
+}
+
+.btn_primary
+{
+	font-size: 1.5vw;
+}
+
+.btn_milieu:hover, .btn_evenement:hover
+{
+	color: #E56B00;
+}
+
+p
+{
+	font-size: 1vw;
+}
+
+input
+{
+	font-family: muli-italic;
+}
+
+@media only screen and (max-width: 1024px)
+{
+	.enseigne
+{
+	font-size: 5vw;
+}
+	
+	.premier_paragraphe, .deuxieme_paragraphe
+	{
+		font-size: 1.7vw;
+		color: black;
+	}
+	
+	.btn_primary
+{
+	font-size: 2vw;
+}
+	
+	p, input, select
+	{
+		font-size: 1.5vw;
+	}
+	
+	.horaire_horaire 
+{
+	font-family: muli-regular;
+	color: white;
+}
+	
+	.horaire
+	{
+		font-family: muli-bold;
+		color: white;
+	}
+	
+	h1
+	{
+		font-size: 3.5vw;
+	}
+	
+}
+
+@media only screen and (max-width: 650px)
+{
+	.enseigne
+{
+	font-size: 7vw;
+}
+	.premier_paragraphe, .deuxieme_paragraphe
+	{
+		font-size: 3.5vw;
+		color: black;
+	}
+	
+		.btn_primary
+{
+	font-size: 4vw;
+}
+	
+	p, input, select
+	{
+		font-size: 2.5vw;
+	}
+	
+		h1
+	{
+		font-size: 4vw;
+	}
+}

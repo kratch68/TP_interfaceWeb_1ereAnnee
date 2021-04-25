@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Hairy Fox</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/font.css">
+		<link rel="stylesheet" href="css/carousel.css">
+		<script type="text/javascript" src="javaScript/script.js">
+		</script>
+	</head>
+
+	<body onload="showSlides(1)">
+		<header>
+			
+			<!--Mode bureau !-->
+			
+			<div class="mode_bureau">
+				<div class="coiffeur">
+					<h1 class="enseigne"><a href="#haut" class="enseigne">Hairy&nbsp;Fox</a></h1>
+					<img class="logo" src="images/favicon.ico/apple-icon-57x57.png" alt="Logo_Hairy_Fox">
+				</div>
+					<ul>
+						<li><a href="#" class="liens">salon</a></li>
+						<li><a href="#" class="liens">service</a></li>
+						<li><a href="#" class="liens">contact</a></li>
+						<li><a href="#" class="liens">rendez-&nbsp;vous</a></li>
+					</ul>
+					<img src="images/search.png" alt="recherche" class="recherche">
+					<a href="https://www.facebook.com"><img src="images/facebook-logo-button.png" alt="facebook" class="facebook"></a>
+					<a href="https://www.instagram.com"><img src="images/instagram.png" alt="instagram" class="instagram"></a>
+			</div>
+			
+			<!--Mode tablette !-->
+			
+		<div class="mode_tablette">
+			<div class="coiffeur">
+				<h1 class="enseigne"><a href="#haut" class="enseigne">Hairy&nbsp;Fox</a></h1>
+				<img class="logo" src="images/favicon.ico/apple-icon-60x60.png" alt="Logo_Hairy_Fox">
+			</div>
+			<div class="bloc_reseaux">
+				<div class="liens_reseaux">
+					<a href="https://www.facebook.com"><img src="images/facebook-logo-button.png" alt="facebook" class="reseaux_sociaux"></a>
+				</div>
+				<div class="liens_reseaux">
+					<a href="https://www.instagram.com"><img src="images/instagram.png" alt="instagram" class="reseaux_sociaux"></a>
+				</div>
+			</div>
+			<div class="menu">
+					<div class="menu_hamburger" onclick="menu(this)">
+						<div class="bar1"></div>
+						<div class="bar2"></div>
+						<div class="bar3"></div>
+					</div>
+			</div>
+			<div class="recherche_tablette">
+				<img src="images/search.png" alt="recherche" class="recherche_loupe">
+			</div>
+		</div>
+			
+			<!--Mode telephone !-->
+			
+		<div class="mode_telephone">
+			<div class="coiffeur">
+				<h1 class="enseigne"><a href="#haut" class="enseigne">Hairy&nbsp;Fox</a></h1>
+				<img class="logo" src="images/favicon.ico/android-icon-36x36.png" alt="Logo_Hairy_Fox">
+			</div>
+			<div class="bloc_reseaux">
+				<div class="liens_reseaux">
+					<a href="https://www.facebook.com"><img src="images/facebook-logo-button.png" alt="facebook" class="reseaux_sociaux"></a>
+				</div>
+				<div class="liens_reseaux">
+					<a href="https://www.instagram.com"><img src="images/instagram.png" alt="instagram" class="reseaux_sociaux"></a>
+				</div>
+			</div>
+			<div class="menu">
+					<div class="menu_hamburger" onclick="menu(this)">
+						<div class="bar1"></div>
+						<div class="bar2"></div>
+						<div class="bar3"></div>
+					</div>
+			</div>
+			</div>
+	</header>
+		
+		<!-- main haut !-->
+		
+		<main class="main_haut">
+			<div class="main_gauche parallaxe_gauche" id="haut">
+				<div class="bloc bloc_gauche">
+					<p class="premier_paragraphe">Prenez rendez-vous chez Hairy Fox, salon de coiffure et de barbier traditionnel, pour une expérience unique comprenant un diagnostic personnalisé, un rituel sur-mesure à l’ancienne et la proposition de soins à domicile grâce à l’efficacité de nos produits.</p>
+					<button class="btn_primary btn_bloc">salon</button>
+				</div>
+			</div>	
+			<div class="main_droit parallaxe_droit">
+				<div class="bloc bloc_droit">
+					<p class="deuxieme_paragraphe">Faites la connaissance de nos professionnels ! Notre équipe est composée de deux coiffeurs stylistes et de deux barbiers, créatifs et passionnés par leur métier.</p>
+					<button class="btn_primary btn_bloc"><a href="#" class="liens_btn"> </a>coiffeur</button>
+				</div>
+			</div>
+		</main>
+		
+		<!-- main milieu supérieur !-->
+		<main class="main_milieu_superieur">
+			<div class="milieu_gauche">
+				<div class="photo_milieu">
+					<div class="photo">
+						<img src="images/coupe-de-cheveux-peigne.jpg" alt="coupe de cheveux peigne">
+					</div>
+					<button class="btn_primary btn_milieu">coupes</button>
+				</div>
+				<div class="photo_milieu">
+					<div class="photo">
+						<img src="images/femme-cheveux-rouges.jpg" alt="coupe de cheveux rouge">
+					</div>
+					<button class="btn_primary btn_milieu">couleurs</button>
+				</div>
+			</div>
+			<div class="milieu_droit">
+				<div class="photo_milieu">
+					<div class="photo">
+						<img src="images/taille_barbe_barbier.jpg" alt="taille_barbe">
+					</div>
+					<button class="btn_primary btn_milieu">barbes</button>
+				</div>
+				<div class="photo_milieu">
+					<div class="photo">
+						<img src="images/mariee-bouquet-fleur-cheveux-ondules.jpg" alt="cheuveux_ondules">
+					</div>
+					<button class="btn_primary btn_evenement">évènements</button>
+				</div>
+			</div>
+		</main>
+		
+		<!-- main carousel !-->
+		
+			<main class="carousel">
+				<div class="slideshow-container">
+					<div class="mySlides fade">
+						<img src="images/ciseaux-accroches-carrousel-1-web.jpg" style="width:100%">
+					</div>
+					<div class="mySlides fade">
+						<img src="images/femme-cheveux-bleus-dos-carrousel-3-web.jpg" style="width:100%">
+					</div>
+					<div class="mySlides fade">
+						<img src="images/bouteilles-et-outils-comptoir-barbier-carrousel-2-web.jpg" style="width:100%">
+					</div>
+					<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+					<a class="next" onclick="plusSlides(1)">&#10095;</a>
+				</div>
+			</main>
+			
+		<!-- main bas !-->
+		
+		<main class="main_bas">
+			<div class="main_bas_haut">
+				<div class="bloc_horaire">
+					<div class="paragraphe_bas_haut">
+						<h1>Horaires</h1>
+					<div class="horaire">
+						<p>Lundi:<br>Mardi:<br>Mercredi:<br>Jeudi:<br>Vendredi<br>Samedi:<br>Dimanche<br></p>
+					<div class="horaire_horaire">
+						<p>Fermé<br>9h00-17h00 <br>9h00-17h00 <br>9h00-17h00 <br>9h00-15h00 <br>11h00-18h00 <br>10h00-12h00<br></p>
+					</div>
+					</div>
+					</div>
+				</div>
+				<div class="bloc_coordonnees">
+					<div class="paragraphe_bas_haut_droite">
+						<h1 class="titre">Coordonnées</h1>
+					<div class="coordonne">
+						<p>Numéro de téléphone : <strong>418 569-3257</strong><br>Adresse : <strong>20, rue Pouet, Pouetville (Québec) Y8R 6T9</strong></p>
+					</div>
+					</div>
+				</div>
+			</div>
+				<div class="main_bas_bas">
+					<div class="bloc_rdv">
+						<div class="paragraphe_bas_haut">
+							<h1 class="titre">Prise de rendez-vous</h1>
+								<form onsubmit="valier_fotm(); return false;" method="get" name="formul" id="formul">
+									<fieldset id="rdv">
+										<label for="Prenom_nom">Prénom Nom</label><br>
+										<input type="text" id="nom" title="Prénom et Nom obligatoire" required placeholder="Prénom Nom"><br>
+										<label for="Adresse_Courriel">Adresse courriel</label><br>
+										<input type="text" id="courriel" title="Adresse courriel obligatoire" pattern="^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$" required placeholder="Adresse courriel"><br>
+										<label for="Date">Date</label><br>
+										<input type="date" id="date_selectionne" name="date" required>
+										<button class="btn_primary valider" onclick="valider_rdv()"> <a href="#rdv"> > </a></button>
+									</fieldset>
+									<div id="validation" class="alert" role="alert">
+										<script>document.getElementById("validation").style.visibility = "hidden";</script>
+										<span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+										Rendez-vous valider!
+									</div>
+								</form>
+						</div>
+					</div>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2678.6510144888875!2d-69.54085204297108!3d47.826980081469365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cbe474c5850306d%3A0x50cf04c7c0b2d28a!2sC%C3%A9gep+de+Rivi%C3%A8re-du-Loup!5e0!3m2!1sfr!2sca!4v1554744566349!5m2!1sfr!2sca" width="48%" height="452" frameborder="0" style="border:0" allowfullscreen></iframe>
+			</div>
+		</main>
+	</body>
+	
+	<!-- footer !-->
+		<footer>
+			<p>Copyright, mentions légales</p>
+		</footer>
+</html>
